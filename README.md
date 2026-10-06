@@ -1,54 +1,54 @@
 # 🎵 midi-orquesta
 
-> **⚠️ ESTADO: EN DESARROLLO ⚠️**
+> **⚠️ STATUS: WORK IN PROGRESS ⚠️**
 > 
-> Este proyecto está activamente en desarrollo. La API, la estructura y las composiciones pueden cambiar sin aviso previo. No usar en producción.
+> This project is actively under development. The API, structure, and compositions may change without prior notice. Do not use in production.
 
 ---
 
-## Descripción
+## Description
 
-Compositor musical avanzado con orquesta completa. Genera archivos MIDI y audio (OGG) usando FluidSynth.
+Advanced music composer with full orchestra. Generates MIDI and audio (OGG) files using FluidSynth.
 
-## Características
+## Features
 
-- **Orquesta completa:** 7-10 pistas por canción
-- **Instrumentos variados:** Cuerdas, maderas, metales, percusión, arpa, coro
-- **Técnicas avanzadas:** Contrapunto, orquestación, dinámica
-- **3 composiciones incluidas:**
-  - `01_sad_orchestra` — Concierto triste (D menor, 70 BPM)
-  - `02_romeo_julieta` — Tema romántico (C mayor, 80 BPM)
-  - `03_requiem` — Marcha fúnebre (E menor, 60 BPM)
+- **Full orchestra:** 7-10 tracks per composition
+- **Varied instruments:** Strings, woodwinds, brass, percussion, harp, choir
+- **Advanced techniques:** Counterpoint, orchestration, dynamics
+- **3 included compositions:**
+  - `01_sad_orchestra` — Sad concert (D minor, 70 BPM)
+  - `02_romeo_julieta` — Romantic theme (C major, 80 BPM)
+  - `03_requiem` — Funeral march (E minor, 60 BPM)
 
-## Requisitos
+## Requirements
 
 - Python 3.8+
 - FluidSynth (`sudo apt install fluidsynth fluid-soundfont-gm`)
 - ffmpeg (`sudo apt install ffmpeg`)
 
-## Uso
+## Usage
 
 ```bash
 python compositor_avanzado.py
 ```
 
-Los archivos se generan en el directorio actual:
-- `.mid` — Archivos MIDI editables
-- `.ogg` — Audio renderizado
-- `.wav` — Audio sin comprimir
+Files are generated in the current directory:
+- `.mid` — Editable MIDI files
+- `.ogg` — Rendered audio
+- `.wav` — Uncompressed audio
 
-## Estructura
+## Structure
 
 ```
 midi-orquesta/
-├── compositor_avanzado.py   # Script principal
+├── compositor_avanzado.py   # Main script
 └── README.md
 ```
 
-## Licencia
+## License
 
 MIT
 
 ---
 
-**Última actualización:** 2026-10-06
+**Last updated:** 2026-10-06
